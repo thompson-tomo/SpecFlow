@@ -10,9 +10,10 @@
     <summary>Package for writing custom generator extensions for SpecFlow.</summary>
     <language>en-US</language>
     <projectUrl>https://www.specflow.org</projectUrl>
+    <RepositoryUrl>https://github.com/SpecFlowOSS/SpecFlow.git</RepositoryUrl>
     <icon>images\specflow-icon.png</icon>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <license type="file">LICENSE.txt</license>
+    <license type="expression">BSD-3-Clause</license>
     <tags>specflow bdd gherkin cucumber generator</tags>
     <copyright>$copyright$</copyright>
     <dependencies>
@@ -29,7 +30,7 @@
   </metadata>
 
   <files>
-    
+
     <file src="bin\$config$\net462\Gherkin.dll" target="lib\$SpecFlow_FullFramework_Runtime_TFM$" />
     <file src="bin\$config$\net462\TechTalk.SpecFlow.Generator.*" target="lib\$SpecFlow_FullFramework_Runtime_TFM$" />
     <file src="bin\$config$\net462\TechTalk.SpecFlow.Utils.*" target="lib\$SpecFlow_FullFramework_Runtime_TFM$" />
@@ -48,7 +49,6 @@
     <file src="$SolutionDir$Licenses\Gherkin-LICENSE-MIT.txt" target="Licenses" />
     <file src="$SolutionDir$Licenses\BoDi-LICENSE-Apache2.txt" target="Licenses" />
 
-    <file src="$SolutionDir$LICENSE.txt" target="LICENSE.txt" />
     <file src="$SolutionDir$specflow-icon.png" target="images\" />
   </files>
 

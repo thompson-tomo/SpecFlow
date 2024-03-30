@@ -10,9 +10,10 @@
     <summary>SpecFlow aims at bridging the communication gap between domain experts and developers by binding business readable behavior specifications to the underlying implementation. Our mission is to provide a pragmatic and frictionless approach to Acceptance Test Driven Development and Behavior Driven Development for .NET projects today.</summary>
     <language>en-US</language>
     <projectUrl>https://www.specflow.org</projectUrl>
+    <RepositoryUrl>https://github.com/SpecFlowOSS/SpecFlow.git</RepositoryUrl>
     <icon>images\specflow-icon.png</icon>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <license type="file">LICENSE.txt</license>
+    <license type="expression">BSD-3-Clause</license>
     <tags>specflow bdd gherkin cucumber</tags>
     <copyright>$copyright$</copyright>
     <dependencies>
@@ -51,7 +52,6 @@
     <file src="$SolutionDir$\Licenses\*" target="Licenses" />
     <file src="$SolutionDir$\*.txt" target="" />
 
-    <file src="$SolutionDir$LICENSE.txt" target="LICENSE.txt" />
     <file src="$SolutionDir$specflow-icon.png" target="images\" />
 
   </files>

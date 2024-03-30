@@ -10,9 +10,10 @@
     <summary>Combined package to setup SpecFlow with NUnit easily for running the tests with the NUnit runners.</summary>
     <language>en-US</language>
     <projectUrl>https://www.specflow.org</projectUrl>
+    <RepositoryUrl>https://github.com/SpecFlowOSS/SpecFlow.git</RepositoryUrl>
     <icon>images\specflow-icon.png</icon>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <license type="file">LICENSE.txt</license>
+    <license type="expression">BSD-3-Clause</license>
     <tags>specflow nunit nunit.runners nunit-console</tags>
     <copyright>$copyright$</copyright>
     <dependencies>
@@ -23,7 +24,6 @@
   </metadata>
 
   <files>
-    <file src="$SolutionDir$LICENSE.txt" target="LICENSE.txt" />
     <file src="$SolutionDir$specflow-icon.png" target="images\" />
   </files>
 </package>
